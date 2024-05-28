@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS pour le header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .left ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header .left ul li {
+    margin-right: 20px;
+}
+
+header .left ul li img {
+    max-width: 100px; /* Ajustez la taille du logo selon vos besoins */
+}
+
+header .right {
+    display: flex;
+    align-items: center;
+}
+
+header .right .btn {
+    margin-right: 20px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .right p {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.global {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav i {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h1, .container h2 {
+    margin-bottom: 10px;
+}
+
+.interact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.interact .btn_interact {
+    margin-right: 10px;
+}
+
+.bio {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.bio p {
+    margin-bottom: 10px;
+}
+
+.second_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second_column img {
+    max-width: 100%;
+    width: 200px; /* Taille fixe de l'image pour desktop */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.second_column .infos {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.second_column .infos p {
+    margin-bottom: 10px;
+}
+
+.second_column .infos hr {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.second_column .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
